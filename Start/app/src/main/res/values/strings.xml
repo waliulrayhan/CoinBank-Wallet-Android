@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Start</string>
+    <string name="Coinbank_Wallet">Coinbank Wallet</string>
+    <string name="privacy">Privacy &amp; Security</string>
+
+    <string-array name="Add_Income_Items">
+        <item>Salary</item>
+        <item>Food &amp; Drinks</item>
+        <item>Shopping</item>
+        <item>Housing</item>
+        <item>Drug-store, Chemist</item>
+        <item>Transportation</item>
+        <item>Internet</item>
+        <item>Gift</item>
+        <item>Groceries</item>
+        <item>Vehicle</item>
+        <item>Life &amp; Entertainment</item>
+        <item>Personal Computer</item>
+        <item>Finance Expenses</item>
+        <item>Investment</item>
+        <item>Services</item>
+        <item>Others</item>
+    </string-array>
+
+
+    <string-array name="Add_Expanse_Items">
+        <item>Food &amp; Drinks</item>
+        <item>Shopping</item>
+        <item>Housing</item>
+        <item>Drug-store, Chemist</item>
+        <item>Transportation</item>
+        <item>Internet</item>
+        <item>Gift</item>
+        <item>Groceries</item>
+        <item>Vehicle</item>
+        <item>Life &amp; Entertainment</item>
+        <item>Personal Computer</item>
+        <item>Finance Expenses</item>
+        <item>Investment</item>
+        <item>Services</item>
+        <item>Others</item>
+    </string-array>
+
+</resources>

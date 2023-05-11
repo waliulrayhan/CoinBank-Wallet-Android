@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addIncome">
+
+
+    <TextView
+        android:id="@+id/DateID1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Date: "
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/incomeSelectCategoryImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.616" />
+
+    <TextView
+        android:id="@+id/DateID2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:text="07 September 2022"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/incomeSelectCategoryImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/DateID1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.616" />
+
+    <ImageView
+        android:id="@+id/incomeSelectCategoryImageView"
+        android:layout_width="313dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="152dp"
+        android:src="@drawable/ic_boxbg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Spinner
+        android:id="@+id/AddIncomeSpinner"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toBottomOf="@+id/incomeSelectCategoryImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/incomeSelectCategoryImageView"
+        app:layout_constraintTop_toTopOf="@+id/incomeSelectCategoryImageView">
+
+
+    </Spinner>
+
+    <ImageView
+        android:id="@+id/incomeAmountImageView"
+        android:layout_width="313dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_boxbg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/incomeSelectCategoryImageView" />
+
+    <EditText
+        android:id="@+id/amountTakaEditText"
+        android:layout_width="272dp"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"
+        android:hint="Amount (in Taka)"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/incomeAmountImageView"
+        app:layout_constraintEnd_toEndOf="@+id/incomeAmountImageView"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="@+id/incomeAmountImageView"
+        app:layout_constraintTop_toTopOf="@+id/incomeAmountImageView" />
+
+    <ImageView
+        android:id="@+id/commentImageView"
+        android:layout_width="313dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_boxbg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/incomeAmountImageView" />
+
+    <EditText
+        android:id="@+id/commentEditText"
+        android:layout_width="272dp"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"
+        android:hint="Comment"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="@+id/commentImageView"
+        app:layout_constraintEnd_toEndOf="@+id/commentImageView"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="@+id/commentImageView"
+        app:layout_constraintTop_toTopOf="@+id/commentImageView" />
+
+
+    <Button
+        android:id="@+id/addIncomeButton"
+        android:layout_width="153dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="136dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/roboto_bold"
+        android:text="ADD INCOME"
+        android:textColor="@color/offWhiteColor"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/commentImageView"
+        app:layout_constraintVertical_bias="0.926"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedbackMenuBar">
+
+    <ImageView
+        android:id="@+id/passwordImage"
+        android:layout_width="298dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="152dp"
+        android:src="@drawable/field"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/NameFeedback"
+        android:layout_width="270dp"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"
+        android:hint="Your Name"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="@+id/passwordImage"
+        app:layout_constraintEnd_toEndOf="@+id/passwordImage"
+        app:layout_constraintStart_toStartOf="@+id/passwordImage"
+        app:layout_constraintTop_toTopOf="@+id/passwordImage" />
+
+    <ImageView
+        android:id="@+id/emailImage"
+        android:layout_width="300dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/field"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordImage" />
+
+    <EditText
+        android:id="@+id/Feedback"
+        android:layout_width="270dp"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"
+        android:hint="Enter Your Feedback"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="@+id/emailImage"
+        app:layout_constraintEnd_toEndOf="@+id/emailImage"
+        app:layout_constraintStart_toStartOf="@+id/emailImage"
+        app:layout_constraintTop_toTopOf="@+id/emailImage" />
+
+    <Button
+        android:id="@+id/feedbackButton"
+        android:layout_width="215dp"
+        android:layout_height="48dp"
+        android:background="@drawable/custom_button_iii"
+        android:backgroundTint="#1C3879"
+        android:text="Submit your Feedback"
+        android:textColor="@color/offWhiteColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailImage"
+        app:layout_constraintVertical_bias="0.149" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

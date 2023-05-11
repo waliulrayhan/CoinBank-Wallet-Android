@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".homePage">
+
+
+    <ImageView
+        android:id="@+id/cashImage"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_cashbg"
+        app:barrierMargin="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <TextView
+        android:id="@+id/cashTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Income"
+        android:textColor="@color/offWhiteColor"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cashImage"
+        app:layout_constraintEnd_toEndOf="@+id/cashImage"
+        app:layout_constraintStart_toStartOf="@+id/cashImage"
+        app:layout_constraintTop_toTopOf="@+id/cashImage"
+        app:layout_constraintVertical_bias="0.209"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/takaImage"
+        android:layout_width="31dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/ic_takaicon"
+        app:layout_constraintBottom_toBottomOf="@+id/cashImage"
+        app:layout_constraintEnd_toEndOf="@+id/cashImage"
+        app:layout_constraintHorizontal_bias="0.369"
+        app:layout_constraintStart_toStartOf="@+id/cashImage"
+        app:layout_constraintTop_toBottomOf="@+id/cashTextView"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <TextView
+        android:id="@+id/cashValue"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_regular"
+        android:text="00.00"
+        android:textColor="@color/offWhiteColor"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cashImage"
+        app:layout_constraintEnd_toEndOf="@+id/cashImage"
+        app:layout_constraintHorizontal_bias="0.69"
+        app:layout_constraintStart_toStartOf="@+id/cashImage"
+        app:layout_constraintTop_toTopOf="@+id/cashImage"
+        app:layout_constraintVertical_bias="0.655" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/ic_savingsbg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.624" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="31dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/ic_takaicon"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.369"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/savingsImageId"
+        app:layout_constraintVertical_bias="0.024" />
+
+
+    <TextView
+        android:id="@+id/savingsValue"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_regular"
+        android:text="00.00"
+        android:textColor="@color/offWhiteColor"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.69"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.655" />
+
+    <TextView
+        android:id="@+id/savingsImageId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Balance"
+        android:textColor="@color/offWhiteColor"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.209"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/expanseImage"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_expensebg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.355" />
+
+    <TextView
+        android:id="@+id/expenseImageId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Expense"
+        android:textColor="@color/offWhiteColor"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/expanseImage"
+        app:layout_constraintEnd_toEndOf="@+id/expanseImage"
+        app:layout_constraintStart_toStartOf="@+id/expanseImage"
+        app:layout_constraintTop_toTopOf="@+id/expanseImage"
+        app:layout_constraintVertical_bias="0.209"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="31dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/ic_takaicon"
+        app:layout_constraintBottom_toBottomOf="@+id/expanseImage"
+        app:layout_constraintEnd_toEndOf="@+id/expanseImage"
+        app:layout_constraintHorizontal_bias="0.369"
+        app:layout_constraintStart_toStartOf="@+id/expanseImage"
+        app:layout_constraintTop_toBottomOf="@+id/expenseImageId"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <TextView
+        android:id="@+id/expenseValue"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_regular"
+        android:text="00.00"
+        android:textColor="@color/offWhiteColor"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/expanseImage"
+        app:layout_constraintEnd_toEndOf="@+id/expanseImage"
+        app:layout_constraintHorizontal_bias="0.69"
+        app:layout_constraintStart_toStartOf="@+id/expanseImage"
+        app:layout_constraintTop_toTopOf="@+id/expanseImage"
+        app:layout_constraintVertical_bias="0.655" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addFloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="32dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/addIncomeFloatingActionButton"
+        app:srcCompat="@drawable/ic_baseline_add_24" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addIncomeFloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="28dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/addFloatingActionButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_add_card" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addExpanseFloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="28dp"
+        android:clickable="true"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/addFloatingActionButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_shopping" />
+
+    <TextView
+        android:id="@+id/IncomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="136dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Add Income"
+        android:textAllCaps="true"
+        android:textSize="16dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/addIncomeFloatingActionButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/addIncomeFloatingActionButton"
+        app:layout_constraintVertical_bias="0.382" />
+
+    <TextView
+        android:id="@+id/ExpanseText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="64dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Add Expense"
+        android:textAllCaps="true"
+        android:textSize="16dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/addExpanseFloatingActionButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/addExpanseFloatingActionButton"
+        app:layout_constraintVertical_bias="0.441" />
+</androidx.constraintlayout.widget.ConstraintLayout>

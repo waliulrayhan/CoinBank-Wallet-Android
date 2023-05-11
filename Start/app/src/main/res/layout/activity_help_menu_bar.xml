@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".HelpMenuBar">
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="370dp"
+            android:layout_gravity="center"
+            android:src="@drawable/helpsignin" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:text="1. This Sign In page. You can simply Sign In here with your email address and your desired password." />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="370dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/helpsignup" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:text="2. If you are not already a user, then you can create a account here with your name, email address and password." />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="370dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/helphome" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:text="3. Here is Home Section. Here you can see your Total Income and Total Cash, even you can monitor your actual balance by Cash Section."
+            />
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="370dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/helpadd" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:text="4. In these section you can easily add your Daily Income or your daily expenses.\nThe Date picker section will help you to pick your desire date. By Spinner Section, you can select any desire item. In Amount section, you will give any value and by the comment section you can easily comment your daily activities."
+
+            />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="370dp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/helpsettings" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:text="5. Here is Settings. You can go your profile or about section. Unfortunately, the privacy policy and notification section are under constructed. We will give these two section by the next update."
+            />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="370dp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/helpprofile" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:layout_marginBottom="50dp"
+            android:text="6. Finally you can see your profile with your username and your email address. You can easily Sign out from Coinbank Wallet by clicking Sign out button.\n\nThanks a lot for reading the Help Section"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
