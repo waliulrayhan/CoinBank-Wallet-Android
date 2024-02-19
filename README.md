@@ -1,13 +1,10 @@
 <h1 align="center">CoinBank Wallet App</h1>
 <p align="center">
-  <img src="logo.png" alt="Logo" width="80" height="80">
-</p>
-<p align="center">
   An Android application project for managing your daily income and expenses.
 </p>
 
 <!-- TABLE OF CONTENTS -->
-<details open="open">
+<!-- <details open="open">
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -30,7 +27,7 @@
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
-</details>
+</details> -->
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
