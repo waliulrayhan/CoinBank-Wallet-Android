@@ -3,7 +3,7 @@
   <img src="logo.png" alt="Logo" width="80" height="80">
 </p>
 <p align="center">
-  An Android application project for managing your daily income and expense.
+  An Android application project for managing your daily income and expenses.
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -35,22 +35,19 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-CoinBank Wallet App is a simple and easy-to-use app that helps you track your income and expense. You can create categories for different types of transactions, view charts and reports of your spending and earning patterns, and set budgets and goals to achieve your financial objectives.
+CoinBank Wallet App is a simple and easy-to-use app that helps you track your income and expenses. You can create categories for different types of transactions, view charts and reports of your spending and earning patterns, and set budgets and goals to achieve your financial objectives.
 
 Some of the features of this app are:
 
 * Add, edit, and delete income and expense transactions
 * Categorize transactions by type, such as salary, rent, food, etc.
 * View transactions by date, category, or amount
-* Generate monthly and yearly reports of income and expense
 * Visualize your data with pie charts and bar charts
 * Set monthly budgets and track your progress
 * Create saving goals and monitor your savings
 * Backup and restore your data to Google Drive
 * Secure your app with a PIN code or fingerprint
-* Customize your app theme and currency
+
 
 ### Built With
 
@@ -58,8 +55,7 @@ This app is built with the following technologies:
 
 * Android Studio
 * Java
-* SQLite
-* MPAndroidChart
+* Firebase
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -80,3 +76,6 @@ You need to have the following software installed on your computer:
 1. Clone the repo
    ```sh
    git clone https://github.com/waliulrayhan/CoinBankWallet-Android.git
+
+  <h2>License</h2>
+  <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
