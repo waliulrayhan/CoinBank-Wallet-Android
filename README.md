@@ -29,6 +29,9 @@
   </ol>
 </details> -->
 
+### Scan the QR code below to download CoinBank Wallet App directly to your Android device
+![CoinBank Wallet Apk Download](https://github.com/waliulrayhan/CoinBank-Wallet-Android/assets/84919654/3a30590b-d609-4305-9ac9-1548bf9cf1cf)
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
