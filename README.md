@@ -48,6 +48,14 @@ Some of the features of this app are:
 * Backup and restore your data to Google Drive
 * Secure your app with a PIN code or fingerprint
 
+## Screenshots
+| App View (Screenshot 1) | App View (Screenshot 2) | App View (Screenshot 3) |
+|--------------------------|--------------------------|--------------------------|
+| ![App View (Screenshot 1)](images/Screenshot_1.PNG) | ![App View (Screenshot 2)](images/Screenshot_2.PNG) | ![App View (Screenshot 3)](images/Screenshot_3.PNG) |
+
+| App View (Screenshot 4) | App View (Screenshot 5) | App View (Screenshot 6) |
+|--------------------------|--------------------------|--------------------------|
+| ![App View (Screenshot 4)](images/Screenshot_4.PNG) | ![App View (Screenshot 5)](images/Screenshot_5.PNG) | ![App View (Screenshot 6)](images/Screenshot_6.PNG) |
 
 ### Built With
 
